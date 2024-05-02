@@ -12,18 +12,17 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
-        <p><a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a></p>
+        <h2>Shiman Zhang</h2>
+        <p><a href="mailto:sz598@cornell.edu">sz598@cornell.edu</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Hi, I&apos;m Shiman. I am a <a href="https://www.orie.cornell.edu/orie">Cornell ORIE</a> graduate, specialzing in Financial Engineerng, UCLA Alumni studying Applied Math and Economics,
+        and incoming Quantitative Analytics Summer Associate at <a href="https://www.jpmorgan.com/global">J.P. Morgan Chase</a>. At the same time,
+        I work as a part-time Research Consulamt at <a href="https://www.worldquant.com/">Worldquant</a>.
+        Previously, I have interned at <a href="https://en.cicc.com/">Chinese International Capital Corporation, (CICC)</a>.
       </p>
       <ul className="actions">
         <li>
@@ -34,7 +33,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Shiman Zhang <Link to="/">saaammi0313.github.io</Link>.</p>
     </section>
   </section>
 );
