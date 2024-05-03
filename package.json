@@ -12,11 +12,12 @@
   },
   "scripts": {
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js",
-    "build": "rimraf ./build && react-scripts build",
     "lint": "eslint \"**/*.js\"",
+    "start": "react-scripts start",
     "predeploy": "npm run build && react-snap",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start"
+    "build": "rimraf ./build && react-scripts build"
+    
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -32,7 +33,7 @@
     "react-ga": "^3.3.1",
     "react-helmet-async": "^2.0.4",
     "react-router-dom": "^6.22.3",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^3.0.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.23.10",
@@ -47,7 +48,8 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "6.8.0",
     "eslint-plugin-react": "^7.34.0",
-    "react-snap": "^1.23.0",
+    "gh-pages": "^6.1.1",
+    "react-snap": "^1.13.1",
     "rimraf": "^5.0.5",
     "sass": "^1.71.1",
     "source-map-explorer": "^2.5.3"
